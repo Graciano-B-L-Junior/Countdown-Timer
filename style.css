@@ -1,0 +1,96 @@
+ Color Theme Swatches in Hex 
+.Natureza-1-hex { color: #131A40; }
+.Natureza-2-hex { color: #355B8C; }
+.Natureza-3-hex { color: #081826; }
+.Natureza-4-hex { color: #17AEBF; }
+.Natureza-5-hex { color: #30F2F2; }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #17AEBF;
+}
+
+h2{
+    color: white;
+    position: relative;
+    left: -65px;
+    top: -100px;
+}
+
+.contador{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+input{
+    width: 160px;
+    height: 30px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: #355B8C;
+    text-align: center;
+    position: relative;
+    left: calc((160px - 100px) / 2);
+    top: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.btn p{
+    color:#30F2F2;
+    font-weight: 900;
+    font-size: 24px;
+    position: relative;
+    top: 15%;
+}
+
+.contador-regressivo{
+    position: relative;
+    top: -50px;
+    left: -60px;
+}
+
+.output-contagem *{
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.output-contagem div{
+    border-bottom:1px solid black;
+    width: 60px;
+}
+
+.output-data *{
+    display: inline-block;
+}
+
+.output-data p:nth-of-type(1){
+    margin-left: 14px;
+}
+.output-data p:nth-of-type(2){
+    margin-left: 30px;
+}
+.output-data p:nth-of-type(3){
+    margin-left: 20px;
+}
+.output-data p:nth-of-type(4){
+    margin-left: 10px;
+}
+
+
+

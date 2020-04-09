@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>Contador</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="contador" id="contador">
+            <h2>Contagem regressiva</h2>
+            <div class="contador-regressivo">
+                <div class="output-contagem">
+                    <div class="dias" id="dias"></div>
+                    <p>:</p>
+                    <div class="horas" id="horas"></div>
+                    <p>:</p>
+                    <div class="minutos" id="minutos"></div>
+                    <p>:</p>
+                    <div class="segundos" id="segundos"></div>
+                </div>
+                <div class="output-data">
+                    <p>Dias</p>
+                    <p>Horas</p>
+                    <p>Minutos</p>
+                    <p>Segundos</p>
+                </div>
+            </div>
+            <input type="text" placeholder="Nome do evento" id="evento">
+            <br>
+            <br>
+            <input type="date" id="data">
+            <div class="btn" id="btn"onclick="countTimeDown()"><p>Start</p></div>
+        </div>
+        <script src="contador.js"></script>
+    </body>
+</html>
